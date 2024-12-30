@@ -1,0 +1,44 @@
+.about {
+  margin: 100px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+}
+
+.al {
+  flex-basis: 40%;
+  position: relative;
+}
+.ar {
+  flex-basis: 56%;
+}
+.aboutimg {
+  width: 100%;
+  border-radius: 10px;
+}
+.playicon {
+  width: 60px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.about h3 {
+  font-weight: 600;
+  font-size: 16px;
+  color: rgb(197, 96, 234);
+}
+
+.about h2 {
+  font-size: 35px;
+  color: rgb(45, 6, 61);
+  margin: 6px 0;
+  max-width: 500px;
+}
+.about p {
+  color: rgb(43, 38, 44);
+  margin-bottom: 11px;
+  font-size: 12px;
+}
